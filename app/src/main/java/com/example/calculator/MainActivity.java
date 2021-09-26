@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         int firstNumber = Integer.parseInt(myTextField1.getText().toString());
         int secondNumber = Integer.parseInt(myTextField2.getText().toString());
-
+        //commit
         goToActivity2(String.valueOf(firstNumber * secondNumber));
 
     }
